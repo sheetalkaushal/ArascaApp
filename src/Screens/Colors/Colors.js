@@ -1,0 +1,21 @@
+export default {
+  LightWhite: "#ffffff",
+  Black: " rgba(0,0,0,0.87)",
+  LightGrey: "#E3E3E3",
+  Green: "#01A651",
+  grey: "rgba(39,36,27,0.7)",
+  darkGreen: "#388F76",
+  greey: "#455F6C",
+  BLACK: "#000000",
+  black_thin: "rgba(0,0,0,0.55)",
+  dark_gery: "rgba(255,255,255,0.3)",
+  bulerGreen: "rgba(1,166,81,0.05)",
+  white: " #F5F8FA",
+  whitegrey: " #EEEEEE",
+  GREY: "rgba(0,0,0,0.11)",
+  blacK: "#212121",
+  greybob: "#B0B0B0",
+  red: "#FF636E",
+  CanvasGradient: "#F5F8FA",
+  Normal_white:"#F3F2EF"
+};
