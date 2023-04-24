@@ -14,8 +14,7 @@ export const Signup = ({ navigation }) => {
   const [Password, SetPassword] = useState("");
   const [enterpass, SetEnterPass] = useState(true);
   const [HideIcon, SetHideIcon] = useState(imagePath.icVisbility);
-  const users={FullName:fullName,
-                   mobile:Mobile}
+  const users = { FullName: fullName, mobile: Mobile };
   function goLogin() {
     if (!fullName.trim()) {
       alert("Enter your fullname");
@@ -26,7 +25,7 @@ export const Signup = ({ navigation }) => {
     } else if (!Password.trim()) {
       alert("Enter your  Password");
     } else {
-        userLogin(users)
+      userLogin(users);
       AsyncSendData("Suggestions", {
         FullName: fullName,
         Email: Email,

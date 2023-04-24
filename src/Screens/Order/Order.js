@@ -8,6 +8,8 @@ import { AsyncSendData, GetAsync, GetAsyncData } from "../utilis/utilis";
 import { decrement } from "../../redux/reducers/Loginreducer";
 import strings from "../../constants/strings";
 export const Order = ({ navigation }) => {
+  // const items=route?.params?.item
+  // console.log(items,"bdygdy")
   const val = useSelector((state) => state.status.value);
   const carddata = useSelector((state) => state.status.carddata);
   useEffect(() => {
@@ -17,7 +19,6 @@ export const Order = ({ navigation }) => {
         .catch(() => {});
     });
   }, [carddata]);
-
   return (
     <View style={{ flex: 1 }}>
       <View style={Styles.main}>
