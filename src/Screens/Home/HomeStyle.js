@@ -27,25 +27,24 @@ export const Styles = StyleSheet.create({
     shadowRadius: 3,
     backgroundColor: "rgba(199, 222, 235, 1)",
     borderRadius: moderateScale(27),
-    justifyContent:"center",
-    alignSelf:"center"
+    justifyContent: "center",
+    alignSelf: "center",
   },
   txtcontent: {
     marginLeft: moderateScale(20),
     marginBottom: moderateScale(16),
-   alignItems:"center"
-
+    alignItems: "center",
   },
   Selling: {
     color: Colors.BLACK,
     fontSize: 20,
   },
-  sellingimg:{
-  width: 100,
-  height: 100,
-  marginLeft: 23,
-  borderRadius: 5,
-   alignSelf:"center"
+  sellingimg: {
+    width: 100,
+    height: 100,
+    marginLeft: 23,
+    borderRadius: 5,
+    alignSelf: "center",
   },
   VIEW: {
     color: Colors.Green,
@@ -62,15 +61,14 @@ export const Styles = StyleSheet.create({
   },
   aid: {
     color: Colors.Green,
-  
   },
   healthcare: {
     marginTop: moderateVerticalScale(17),
     marginRight: moderateScale(20),
   },
-  careimg:{
-    height:100,
-    width:100,
+  careimg: {
+    height: 100,
+    width: 100,
     // backgroundColor:Colors.LightWhite
-  }
+  },
 });

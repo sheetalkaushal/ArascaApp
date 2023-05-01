@@ -27,13 +27,14 @@ export const Home = ({ navigation }) => {
       TodoRef.onSnapshot((querySnapshot) => {
         const users = [];
         querySnapshot.forEach((doc) => {
-          const { Img, firstAd, Subscribe, Adds } = doc.data();
+          const { Img, firstAd, Subscribe, Adds,Quantity } = doc.data();
           users.push({
             id: doc.id,
             Img,
             firstAd,
             Subscribe,
             Adds,
+            Quantity,
           });
         });
         Setusers(users);
@@ -143,6 +144,7 @@ export const Home = ({ navigation }) => {
                 <Text style={Styles.aid}>{item.firstAd}</Text>
                 <Text>{item.Subscribe}</Text>
                 <Text>{item.Adds}</Text>
+                <Text>{item.Quantity}</Text>
               </View>
             </TouchableOpacity>
           )}
